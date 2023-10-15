@@ -1,0 +1,12 @@
+[package]
+name = "sdac"
+version = "1.0.0"
+edition = "2021"
+authors = ["Thijs Haker"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.189"
+serde-lexpr = "0.1.3"
+serde_derive = "1.0.189"
