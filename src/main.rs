@@ -29,6 +29,7 @@ enum Exp {
     Neq(Val, Val), // Non Equality
     Min(Val, Val), // Minimum
     Max(Val, Val), // Maximum
+    Eif(Val, Val), // Evaluate if true
 }
 
 // Expression evaluation
@@ -101,6 +102,15 @@ fn eval(e: Exp) -> isize {
             let v = (detect(x), detect(y));
             println!("> {} {}", v.0, v.1);
             return cmp::max(v.0, v.1);
+        }
+        Exp::Eif(x, y) => {
+            let vx = detect(x);
+            if vx != IFALSE {
+                let vy = detect(y);
+                println!("? {} {}", vx, vy);
+                return vy;
+            }
+            return IFALSE;
         }
     }
 }

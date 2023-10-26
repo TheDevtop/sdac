@@ -10,20 +10,21 @@ The **S**oftware **D**efined **A**utomatic **C**alculator, is a research project
 
 ### Keywords
 
-| Keyword | Symbol |   Description  |
-|:-------:|:------:|:--------------:|
-|   add   |    +   |    Addition    |
-|   mul   |    *   | Multiplication |
-|   sub   |    -   |   Subtraction  |
-|   div   |    /   |    Division    |
-|   mod   |    %   |     Modulus    |
-|   and   |    &   |       AND      |
-|   ior   |   \|   |  Inclusive OR  |
-|   xor   |    ^   |  Exclusive OR  |
-|   eqa   |    =   |    Equality    |
-|   neq   |    !   |  Non Equality  |
-|   min   |    <   |     Minimum    |
-|   max   |    >   |     Maximum    |
+| Keyword | Symbol |    Description   |
+|:-------:|:------:|:----------------:|
+|   add   |    +   |     Addition     |
+|   mul   |    *   |  Multiplication  |
+|   sub   |    -   |    Subtraction   |
+|   div   |    /   |     Division     |
+|   mod   |    %   |      Modulus     |
+|   and   |    &   |        AND       |
+|   ior   |   \|   |   Inclusive OR   |
+|   xor   |    ^   |   Exclusive OR   |
+|   eqa   |    =   |     Equality     |
+|   neq   |    !   |   Non Equality   |
+|   min   |    <   |      Minimum     |
+|   max   |    >   |      Maximum     |
+|   eif   |    ?   | Evaluate if true |
 
 ### Example (The answer to everything)
 
